@@ -8,7 +8,7 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-- name: spot
+- name: onDemand
   instanceTypes: ["t3.micro"]
   spot: true
   desiredCapacity: 2
