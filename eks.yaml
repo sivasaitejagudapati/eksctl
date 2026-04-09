@@ -10,5 +10,5 @@ metadata:
 managedNodeGroups:
 - name: onDemand
   instanceTypes: ["t3.micro"]
-  spot: true
+  spot: false
   desiredCapacity: 2
